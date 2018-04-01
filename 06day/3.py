@@ -1,0 +1,6 @@
+name =print("姓名：韩迪")
+age = print("年龄：24")
+gender = print('性别：男')
+height = print('身高：1.73')
+weight = print("体重：70KG")
+email = input("邮箱：1174460924@qq.com")
