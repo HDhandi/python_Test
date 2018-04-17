@@ -1,0 +1,49 @@
+#欢迎语
+print('欢迎使用本公司产品'.center(30,' '))
+		
+#系统菜单
+print('学生管理系统HD1.0版本'.center(30,'*'))
+print('1.录入成绩'.center(30,' '))
+print('2.查询成绩'.center(30,' '))
+print('3.修改成绩'.center(30,' '))
+print('4.删除成绩'.center(30,' '))
+print('5.打印全部成绩'.center(30,' '))
+print('6.退出系统'.center(30,' '))
+list = []#空列表
+while True:
+	message = int(input('请输入选项'))
+	if message == 1:
+		flag =0
+		dictionary ={}#空字典
+		
+		
+		message =input('请输入名字')
+		print('名字创建成功\n')
+		message = int(input('请输入学号'))
+		print('学号录入成功\n')
+		print('请录入成绩\n')
+		
+		message = int(input('请输入语文成绩'))
+		print('语文成绩录入成功\n')
+		message = int(input('请输入数学成绩'))
+		print('数学成绩录入成功\n')
+		message = int(input('请输入英语成绩'))
+		print('英语成绩录入成功\n')
+		message = int(input('请输入计算机成绩'))
+		print('计算机成绩录入成功\n')
+	
+
+
+#	if message == 2:
+		print('')
+
+
+
+		
+
+
+
+
+
+
+
